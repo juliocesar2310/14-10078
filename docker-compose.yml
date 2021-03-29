@@ -1,0 +1,11 @@
+--- 
+services: 
+  container: 
+    image: actividad8
+    volumes: 
+      - "volumen_uno:\\app actividad8"
+version: "3.3"
+volumes: 
+  volumen_uno: 
+    external: true
+
